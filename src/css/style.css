@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Ananias;
+    src: url(/src/fonts/Ananias.ttf);
+}
+
+@font-face {
+    font-family: Childo;
+    src: url(/src/fonts/Childo.otf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(/src/fonts/OpenSans.ttf);
+}
+
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    background-image: url("/src/img/backgorund-image.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+main#content{
+    height: 100%;
+    padding-bottom: 2rem;
+}
+
+div#left{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+div#empresa{
+    display: flex;
+    align-items: center;
+}
+
+img#logo-empresa{
+    height: 20rem;
+}
+
+span#nome-empresa{
+    margin: -5rem;
+}
+
+span#nome-empresa{
+    font-family: Ananias;
+    font-size: 83pt;
+    font-weight: bolder;
+    color: #550953;
+}
+
+div#social{
+    height: 40rem;
+    padding-left: 10rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Childo;
+}
+
+div#social img{
+    height: 8.5rem;
+}
+
+div#right{
+    position: absolute;
+    top: 7rem;
+    right: 8rem;
+}
+
+nav#navegacao{
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img#folha-cima{
+    position: absolute;
+    top: -6rem;
+    left: -20rem;
+    transform: rotateY(180deg);
+}
+
+img#folha-baixo{
+    position: absolute;
+    bottom: -5rem;
+    right: -10rem;
+    transform: scale(1.2);
+}
+
+.button{
+    width: 40rem;
+    height: 8rem;
+    border: 3px solid #F0EEE2;
+    border-radius: 5rem;
+    font-family: OpenSans;
+    font-weight: bolder;
+    font-size: 20pt;
+    color: #F0EEE2;
+    background: none;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.text-social{
+    margin-left: 5rem;
+    font-size: 30pt;
+}
