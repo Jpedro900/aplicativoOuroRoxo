@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: Ananias;
-    src: url(../fonts/Ananias.ttf);
+    src: url(./fonts/Ananias.ttf);
 }
 
 @font-face {
     font-family: Childo;
-    src: url(../fonts/Childo.otf);
+    src: url(./fonts/Childo.otf);
 }
 
 @font-face {
     font-family: OpenSans;
-    src: url(../fonts/OpenSans.ttf);
+    src: url(./fonts/OpenSans.ttf);
 }
 
 html{
@@ -26,7 +26,7 @@ html{
 
 body{
     height: 100vh;
-    background-image: url("../img/backgorund-image.png");
+    background-image: url("./img/backgorund-image.png");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
